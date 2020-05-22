@@ -36,7 +36,7 @@
           <drools:metaValue><![CDATA[REST]]></drools:metaValue>
         </drools:metaData>
         <drools:onEntry-script scriptFormat="http://www.java.com/java">
-          <drools:script><![CDATA[System.out.println("Start REST task");]]></drools:script>
+          <drools:script><![CDATA[System.out.println("Start REST task first time");]]></drools:script>
         </drools:onEntry-script>
         <drools:onExit-script scriptFormat="http://www.java.com/java">
           <drools:script><![CDATA[System.out.println("REST result: " + resulte.toString());
